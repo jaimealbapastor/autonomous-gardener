@@ -4,5 +4,5 @@ By [Jaime Alba](https://github.com/jaimealbapastor) and [Brice Mabille](https://
 
 ## Index
 
-- Initial [Research report](documentation/ResearchReport-Bibliography.pdf)
-- [Gantt diagram](documentation/GanttDiagram.pdf) for the first 30 hours
+- Initial [Research report](Documentation/ResearchReport-Bibliography.pdf)
+- [Gantt diagram](Documentation/GanttDiagram.pdf) for the first 30 hours
