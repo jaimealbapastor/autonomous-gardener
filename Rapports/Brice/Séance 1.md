@@ -12,7 +12,7 @@ https://fr.aliexpress.com/item/1005003016412115.html?spm=a2g0o.detail.1000014.3.
 However, I noticed that the wheels were not the priority, so I decided to set the wheels modelization aside and began to modelize the e-Gaa frame. I designed it on paper and measured all the components we need inside the frame. 
 In addition, I create a sketch of the component space at scale in my notebook.
 
-Documentation/images/Framepapermodelization.jpeg
+![image](../../Documentation/images/Framepapermodelization.jpeg)
 
 Jaime and I met the Electronician Teacher. He began reading our Research Report, and we discussed the Auger's excessive size, the motor utilized to power it, and the rake's application. For example, we wondered how we could pack the ground after we sowed the seed. 
 The less oxygen the plant has, the better is for her evolution. 
