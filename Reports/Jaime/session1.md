@@ -2,7 +2,6 @@
 
 ## **Organizing the session**
 
----
 First off, I've set up a Fusion 360 shared folder that we can both access and share as needed for each of our 3D models.
 
 Then, according to the [Gantt diagram](../../Documentation/GanttDiagram.pdf), my first task is to model the suspension as well as the chassis.  
@@ -10,8 +9,6 @@ In order to decrease the modeling and production delays, Brice and I decided to 
 I will be focusing on the engineering and design of the suspension and mobility, while he is going to focus on the main structure, which will contain the electronic components and stock tanks.  
   
 ## **Suspension structure**
-
----
 
 The robot will be used in all sort of terrains, and so he must be able to face all kind of obstacles. An optimal mobility is therefore required.
 
@@ -32,8 +29,6 @@ Here's a scheme summarizing the mechanical connections:
 
 ## **Differential**
 
----
-
 Zooming on the differential, this is how it looks like:
 
 |![differential](../../Documentation/Images/differential_3D_model.png)|![differential](../../Documentation/Images/differential_scheme.png)|
@@ -45,8 +40,6 @@ You can see that the extremities are connected to both rocker-bogie components a
 Additionally, there is a resort that will absorb impacts and cushion movement.  
 
 ## **Sowing**
-
----
 
 The electronics professor came up to us during the session to discuss some flaws he had noticed in the sowing technique.
 
