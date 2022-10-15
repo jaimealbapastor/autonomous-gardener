@@ -27,8 +27,8 @@ As you can see on the picture above, the rocker-bogie suspension is composed of 
 
 Here's a scheme summarizing the mechanical connections:
 
-<img src="../../Documentation/Images/schema_suspension.png" height=300>
-<img src="../../Documentation/Images/connection_diagram.png" height=300>
+<img src="../../Documentation/Images/schema_suspension.png" height=200>
+<img src="../../Documentation/Images/connection_diagram.png" height=200>
 
 <br>
 
@@ -37,8 +37,8 @@ Here's a scheme summarizing the mechanical connections:
 ---
 Zooming on the differential, this is how it looks like:
 
-<img src="../../Documentation/Images/differential_3D_model.png" height=400>
-<img src="../../Documentation/Images/differential_scheme.png" height=400>
+<img src="../../Documentation/Images/differential_3D_model.png" height=300>
+<img src="../../Documentation/Images/differential_scheme.png" height=300>
 
 <br>
 
