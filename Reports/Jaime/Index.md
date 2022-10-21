@@ -2,6 +2,7 @@
 
 - 16/09/2022 : Setup du projet GitHub partagé
 - 14/10/2022 : [Session 1](session1.md)
+- 18/10/2022 : [Session 2](session2.md)
 
 ## **Issues to solve**
 
