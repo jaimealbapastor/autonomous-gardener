@@ -40,9 +40,9 @@ I created an SVG file with the appropriate dimensions for our frame and changed 
 
 I also divided the file into three files because the frame dimensions were too large for a single wood board.
 
-![image](../../Documentation/Images/ElectronicsBox.svg)
-![image](../../Documentation/Images/ElectronicsBox2.svg)
-![image](../../Documentation/Images/ElectronicsBox3.svg)
+![image](../../Documentation/Images/Box1.png)
+![image](../../Documentation/Images/Box2.png)
+![image](../../Documentation/Images/Box3.png)
 
 Unfortunately, I was unable to turn on the Laser cut machine because Mr.Lebreton had reserved it throughout the session.
 
