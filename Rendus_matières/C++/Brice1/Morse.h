@@ -98,3 +98,33 @@ switch (letter)
         break;
     case '7':
         this->morse = "--...";
+
+
+char text[36] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+std::string morse[36] = {".-","-...","-.-.","-..",".","..-","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
+
+
+void tiret(){
+    digitalWrite(LED_BUILTIN, HIGH);
+    delay(10);
+    digitalWrite(LED_BUILTIN, LOW);
+    delay(1000);
+    
+}
+ 
+void point(){
+    digitalWrite(LED_BUILTIN, HIGH);
+    delay(2000);
+    digitalWrite(LED_BUILTIN, LOW);
+    delay(1000);
+    
+}
+
+void clignotement(std::string x){
+    if (x=="."){
+        point();
+    
+    }else if (x=="-"){
+        tiret();
+    }
+}
