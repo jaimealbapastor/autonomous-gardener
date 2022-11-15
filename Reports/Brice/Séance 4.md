@@ -4,7 +4,6 @@
 
 # Séance 4:
 
-During this session, I needed to 
 
 
 
