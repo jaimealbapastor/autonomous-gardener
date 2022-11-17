@@ -34,3 +34,5 @@ I am proud having finish this frame. Here are some images Jaime captured of the 
 ![image](../../Documentation/Images/ChassisPhysique1.jpg)
 ![image](../../Documentation/Images/ChassisPhysique2.jpg)
 ![image](../../Documentation/Images/ChassisPhysique3.jpg)
+
+For the next session, I will certainly work on the drilling system, I will modelize the Auger and I will print on the 3D machine the gear and the Auger.
