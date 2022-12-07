@@ -6,6 +6,7 @@
 - 28/10/2022 : [Session 3](session3.md)
 - 15/11/2022 : [Session 4](session4.md)
 - 25/11/2022 : [Session 5](session5.md)
+- 06/12/2022 : [Session 6](session6.md)
 
 ## **Issues to solve**
 
