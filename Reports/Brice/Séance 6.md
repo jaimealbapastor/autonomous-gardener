@@ -24,7 +24,7 @@ With those prints, I modified the gear system model to include a holding device,
 
 But for the Auger, I wanted to post-treat to insert it in the mandrel.
 
-Second, with Sébastien Juan's assistance, we make a small hole in the mandrel and insert it into the motor.
+Second, with Frédéric Juan's assistance, we make a small hole in the mandrel and insert it into the motor.
 It was a great idea but we believe that the Auger will not revolve properly.
 
 Unfortunately, when I used the Auger to test the motor, I damaged it, making it impossible for me to determine whether the rotation was accurate.
@@ -47,7 +47,6 @@ When I watched the movie again, I saw that the author's modelization was availab
 ![image](../../Documentation/Images/LIDAR8.png)
 ![image](../../Documentation/Images/LIDAR9.png)
 ![image](../../Documentation/Images/LIDAR.jpg)
-
 
 Moreover, I had to use a laser cutter to cut the water and seed stock that I designed in Inkscape. I'll then assemble it with silicone to ensure proper sealing.
 
