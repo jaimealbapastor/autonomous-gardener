@@ -13,6 +13,8 @@ Additionally, I drilled several holes so that I could add screws and keep the wo
 
 ![img](../../Documentation/Images/differential_built_5.jpg)
 
+I discovered a minor problem: the bearings inside the wood layer are a little loose. So I'll just print new 3D rings a bit wider.
+
 ## Main pivot
 
 I continued modeling the main pivot.  
