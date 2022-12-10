@@ -17,7 +17,7 @@ Additionally, I drilled several holes so that I could add screws and keep the wo
 
 I continued modeling the main pivot.  
 
-The component will have to withstand significant angular forces coming from the tubes to the main axe. So, in order to increase the distribution of the momentum, I modelled a circular shape.
+The component will have to withstand significant angular forces coming from the tubes to the vertical axe. So, in order to increase the distribution of the momentum, I modelled a circular shape.
 
 |![img](../../Documentation/Images/main_pivot_5.png)|![img](../../Documentation/Images/main_pivot_6.png)|
 |:---:|:---:|
