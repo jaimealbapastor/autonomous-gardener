@@ -26,7 +26,7 @@ Second, I connected the Auger and Gear systems to the motors and saw that everyt
 
 I'm just not sure with the reliability of the rack with the motor DC.
 
-I thought of an idea with Jaime, making the rack on a side and an object I don't remember the name which maintain the rack with the motor and the gear.
+I thought of an idea with Jaime, making the rack on a side and a Linear bearing which maintains the rack with the motor and the gear.
 
 ![image](../../Documentation/Images/Gearsystem.png)
 
