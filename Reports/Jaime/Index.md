@@ -7,10 +7,4 @@
 - 15/11/2022 : [Session 4](session4.md)
 - 25/11/2022 : [Session 5](session5.md)
 - 06/12/2022 : [Session 6](session6.md)
-
-## **Issues to solve**
-
-|Check|Title|Description|Link to page|  
-|:---:|---|:---:|:--:|
-|$\checkmark$|Drill torque|Chose a CC motor with enough torque for the 3 diameter drill|[session 1](session1.md/#sowing)|
-|$\checkmark$|Bearings|Update the bearing measurements before 3D printing|[session 3](session3.md)|
+- 10/12/2022 : [Session 7](session7.md)
