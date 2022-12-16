@@ -8,11 +8,11 @@ By doing this, impression time and weight will be decreased while maintaining th
 |![img](../../Documentation/Images/main_pivot_9.png)|![img](../../Documentation/Images/main_pivot_10.png)|
 |:---:|:---:|
 
-During the weekend, I sent an email to our mechanics teacher to ask for advice. He came to see me during the session and we discussed some aspects to improve:  
+I emailed our mechanical teacher over the weekend to receive advice. During the session, he stopped by to visit me, and we talked about several things to do better at:
 
-- First, although the curved area is stylish, it doesn't brings any benefices for handling the moments of forces.
-- Second, the line connecting the exterior ones should be aimed to the center of the axis.
-- Finally, the two central crosses can be changed by a single cross. This type of structure is enough for the type of forces applied in the piece.
+- First, despite being fashionable, the curved area offers no advantages for managing moments of force.
+- Next, the line joining the outside ones should point toward the axis's center.
+- Finally, a single cross can replace the two central crosses. For the kinds of forces used in the piece, this structure is adequate.
 
 |![img](../../Documentation/Images/main_pivot_9.png)|![img](../../Documentation/Images/main_pivot_13.png)|
 |:---:|:---:|
