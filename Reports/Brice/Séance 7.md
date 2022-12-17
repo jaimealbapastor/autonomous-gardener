@@ -2,13 +2,13 @@
 
 - 09/12/2022 : Setup du projet GitHub partagé
 
-# Séance 7:
+# Séance 7
 
 I began this session by making sure the LIDAR system is compatible with the actual LIDAR.
 
 But I didn't anticipate that the LIDAR would be too long for the printed system. Because I will have a model and a structure, it will at least assist me in recreating the LIDAR system.
 
-So I begun to modelize the new LIDAR system, I thought I only needed to do a dilation but it will not work because the parts connected to the motors don't have to be change. 
+So I begun to modelize the new LIDAR system, I thought I only needed to do a dilation but it will not work because the parts connected to the motors don't have to be change.
 
 I believe I will lengthen the system's base and rings, and I may dilate the remaining portions.
 
