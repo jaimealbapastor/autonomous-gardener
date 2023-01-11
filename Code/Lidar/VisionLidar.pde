@@ -5,6 +5,9 @@
 // https://processing.org/
 // You also need to install the PeasyCam library: Sketch > Import Library... > Add Library... > Search for "peasycam"
 
+// ouvrir avec processing 
+//branchement appareil !
+
 // This software read coordinates of the Arduino Lidar 
 // (format: "X Y Z") and displays it as a 3D point cloud that you
 // can move around using the mouse.
