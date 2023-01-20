@@ -2,7 +2,6 @@
 
 Deplacement dl;         ///abréviation pour pouvoir faire référence au classe lors d'appel de fonction
 
-
 void setup(){
 
     /// Configuration de tous les pins de l'Arduino en sortie

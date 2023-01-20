@@ -1,5 +1,8 @@
+#include "Deplacement.hpp"
 
-void deplacement(){
+Deplacement::Deplacement(){};   ///Constructeur
+
+void Deplacement::deplacement(){
 
     etat=(Serial.read());
     
@@ -21,7 +24,7 @@ void deplacement(){
     }
 }
 
-void avant(){
+void Deplacement::avant(){
 
     analogWrite(borne1, 200);
     analogWrite(borne2, 200);
@@ -33,7 +36,7 @@ void avant(){
     digitalWrite(borne2, LOW);
 }
 
-void arriere(){
+void Deplacement::arriere(){
 
     analogWrite(borne1, 200);
     analogWrite(borne2, 200);
@@ -45,7 +48,7 @@ void arriere(){
     digitalWrite(borneIN2, HIGH);
 }
 
-void gauche(){
+void Deplacement::gauche(){
 
     analogWrite(borne1, 200);
     analogWrite(borne2, 200);
@@ -56,7 +59,7 @@ void gauche(){
     digitalWrite(PinDROITE_recule, LOW);
 }
 
-void droite(){
+void Deplacement::droite(){
 
     analogWrite(borne1, 200);
     analogWrite(borne2, 200);
@@ -67,7 +70,7 @@ void droite(){
     digitalWrite(PinDROITE_recule, HIGH);
 }
 
-void stop_moteur(){
+void Deplacement::stop_moteur(){
 
     analogWrite(borne1, 0);
     analogWrite(borne2, 0);
@@ -75,7 +78,7 @@ void stop_moteur(){
 
 ///en cours: 
 
-void passerunobstacle(){
+void Deplacement::passerunobstacle(){
 
     ///récuperer l'analyse d'obstacle avec classe au debut du programme
     

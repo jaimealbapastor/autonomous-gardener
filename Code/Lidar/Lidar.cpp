@@ -1,9 +1,11 @@
+#include "Lidar.hpp"
 
+Lidar::Lidar(){};   ///Constructeur
 
 // Send X Y Z STRENGTH to the computer
 // @TODO: reverse kinematics
 
-void send_pos(){
+void Lidar::send_pos(){
   if(distance == 0) return;
   
   theta = (float)pulses*360.0f/PULSE_PER_REV; //compute angle from motor pulses
@@ -21,7 +23,7 @@ void send_pos(){
 
 // Move both servos to change the mirror angle
 
-void servo_pos(int angle){
+void Lidar::servo_pos(int angle){
 
   if(angle > SERVO_POS_MAX || angle < SERVO_POS_MIN)
   return;

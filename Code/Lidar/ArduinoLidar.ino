@@ -1,4 +1,6 @@
+#include "Lidar.hpp" ///Importation des fichiers
 
+Lidar Ld;         ///abréviation pour pouvoir faire référence au classe lors d'appel de fonction
 
 void setup(){
 
@@ -29,7 +31,7 @@ void setup(){
   // Servos
   servo_g.attach(SERVO_G_PIN);
   servo_d.attach(SERVO_D_PIN);
-  servo_pos(servo_angle);
+  Ld.servo_pos(servo_angle);
 }
 
 void loop(){
@@ -42,7 +44,7 @@ void loop(){
 
   if((pulses + offset)%PULSE_PER_DATAPOINT == 0){
     getDistance(&distance);
-    send_pos();
+    Ld.send_pos();
   }
 
   if(pulses == PULSE_PER_REV) {
@@ -51,6 +53,6 @@ void loop(){
     if(servo_angle > SERVO_POS_MAX || servo_angle < SERVO_POS_MIN){
       servo_dir = -servo_dir;
     }
-    servo_pos(servo_angle);
+    Ld.servo_pos(servo_angle);
   }
 }
