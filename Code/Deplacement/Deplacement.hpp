@@ -11,7 +11,6 @@ class Deplacement   /// Definition de ma classe Clignotement
 {
 
 private:
-    unsigned long ;
     char etat;
 
 public:
