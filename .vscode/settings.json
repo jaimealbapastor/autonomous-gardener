@@ -4,5 +4,8 @@
     "C_Cpp.errorSquiggles": "Disabled",
     "cSpell.words": [
         "Mabille"
+    ],
+    "cSpell.enableFiletypes": [
+        "cpp"
     ]
 }
