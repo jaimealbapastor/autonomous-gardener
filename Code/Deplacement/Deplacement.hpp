@@ -7,7 +7,7 @@
 
 #include "Arduino.h"
 
-class Deplacement   /// Definition de ma classe Clignotement
+class Deplacement   /// Definition de ma classe Deplacement
 {
 
 private:

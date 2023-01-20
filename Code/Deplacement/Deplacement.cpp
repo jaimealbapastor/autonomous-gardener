@@ -1,15 +1,14 @@
-#include Obstacles.hpp
 
 void deplacement(){
 
-    etat=(Serial1.read());
+    etat=(Serial.read());
     
-    if (etat=='H'){
+    if (etat=='A'){
         avant();
-        Serial.println("Haut"); 
-    }else if (etat=='B'){
+        Serial.println("Avancer"); 
+    }else if (etat=='R'){
         arriere();
-        Serial.println("Bas"); 
+        Serial.println("Reculer"); 
     }else if (etat=='G'){
         gauche();
         Serial.println("Gauche"); 
@@ -22,8 +21,7 @@ void deplacement(){
     }
 }
 
-void avant()
-{
+void avant(){
 
     analogWrite(borne1, 200);
     analogWrite(borne2, 200);
@@ -31,13 +29,11 @@ void avant()
     digitalWrite(borne3, HIGH); 
     digitalWrite(borne4, LOW);  
 
-    // Configuration de "marche avant" pour le moteur
     digitalWrite(borne1, HIGH);
     digitalWrite(borne2, LOW);
 }
 
-void arriere()
-{
+void arriere(){
 
     analogWrite(borne1, 200);
     analogWrite(borne2, 200);
@@ -49,8 +45,7 @@ void arriere()
     digitalWrite(borneIN2, HIGH);
 }
 
-void gauche()
-{
+void gauche(){
 
     analogWrite(borne1, 200);
     analogWrite(borne2, 200);
@@ -61,8 +56,7 @@ void gauche()
     digitalWrite(PinDROITE_recule, LOW);
 }
 
-void droite()
-{
+void droite(){
 
     analogWrite(borne1, 200);
     analogWrite(borne2, 200);
@@ -73,11 +67,13 @@ void droite()
     digitalWrite(PinDROITE_recule, HIGH);
 }
 
-void stop_moteur()
-{
+void stop_moteur(){
+
     analogWrite(borne1, 0);
     analogWrite(borne2, 0);
 }
+
+///en cours: 
 
 void passerunobstacle(){
 
@@ -85,7 +81,7 @@ void passerunobstacle(){
     
     if (obstacle == 1){     /// si l'obstacle est surmontable: entre 1mm et 10 cm de haut
         avancer();          ///alors on peut avancer avec précaution
-        if (robot == 45°){  /// si l'inclinaison du robot est trop importante
+        if (robot >= 45){  /// si l'inclinaison du robot est trop importante: 45°
             arriere();
             obstacle = 0;   ///alors reculer et considerer cet obstacle comme insurmontable
         }
