@@ -10,7 +10,7 @@ private:
     unsigned long ;
 
 public:
-    void analyseobstacle();                     ///Fonction pour analyser si un obstacle est surmontable ou pas
+    void analyseobstacle();   ///Fonction pour analyser si un obstacle est surmontable ou pas
     
 };
 

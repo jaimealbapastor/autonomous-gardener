@@ -77,7 +77,7 @@ void Deplacement::stop_moteur(){
 }
 
 ///en cours: 
-
+/*
 void Deplacement::passerunobstacle(){
 
     ///récuperer l'analyse d'obstacle avec classe au debut du programme
@@ -91,6 +91,5 @@ void Deplacement::passerunobstacle(){
     }else{
         ///contourner l'obstacle soit droite soit gauche
     }
-
-
 }
+*/
