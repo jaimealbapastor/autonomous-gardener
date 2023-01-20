@@ -1,0 +1,18 @@
+
+///en cours: 
+/*
+void Deplacement::passerunobstacle(){
+
+    ///récuperer l'analyse d'obstacle avec classe au debut du programme
+    
+    if (obstacle == 1){     /// si l'obstacle est surmontable: entre 1mm et 10 cm de haut
+        avancer();          ///alors on peut avancer avec précaution
+        if (robot >= 45){  /// si l'inclinaison du robot est trop importante: 45°
+            arriere();
+            obstacle = 0;   ///alors reculer et considerer cet obstacle comme insurmontable
+        }
+    }else{
+        ///contourner l'obstacle soit droite soit gauche
+    }
+}
+*/
