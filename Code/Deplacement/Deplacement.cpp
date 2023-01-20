@@ -1,4 +1,4 @@
-
+#include Obstacles.hpp
 
 void deplacement(){
 
@@ -80,11 +80,18 @@ void stop_moteur()
 }
 
 void passerunobstacle(){
+
     ///récuperer l'analyse d'obstacle avec classe au debut du programme
-    /// si l'obstacle est surmontable: entre 1mm et 10 cm de haut
-    ///alors on peut avancer avec précaution
-    /// si l'inclinaison du robot est trop importante
-    ///alors reculer et considerer cet obstacle comme insurmontable
-    ///contourner l'obstacle
+    
+    if (obstacle == 1){     /// si l'obstacle est surmontable: entre 1mm et 10 cm de haut
+        avancer();          ///alors on peut avancer avec précaution
+        if (robot == 45°){  /// si l'inclinaison du robot est trop importante
+            arriere();
+            obstacle = 0;   ///alors reculer et considerer cet obstacle comme insurmontable
+        }
+    }else{
+        ///contourner l'obstacle soit droite soit gauche
+    }
+
 
 }
