@@ -1,4 +1,4 @@
-#include "Lidar.hpp" ///Importation des fichiers
+#include "Lidar.h" ///Importation des fichiers
 
 Lidar Ld;         ///abréviation pour pouvoir faire référence au classe lors d'appel de fonction
 
@@ -34,8 +34,12 @@ void setup(){
   Ld.servo_pos(servo_angle);
 }
 
-void loop(){
+// Scanning function. Adapt to your needs!
 
+int8_t servo_dir = 1;
+int8_t offset = 0;
+void loop() {
+  uint16_t pulses = 0;
   digitalWrite(STEP_PIN, HIGH);
   delayMicroseconds(TIME_PER_PULSE);
   digitalWrite(STEP_PIN, LOW);
@@ -43,7 +47,7 @@ void loop(){
   pulses ++;
 
   if((pulses + offset)%PULSE_PER_DATAPOINT == 0){
-    getDistance(&distance);
+    Ld.getDistance(&distance);
     Ld.send_pos();
   }
 

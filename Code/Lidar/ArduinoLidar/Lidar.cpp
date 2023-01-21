@@ -1,13 +1,13 @@
-#include "Lidar.hpp"
+#include "Lidar.h"
 
-Lidar::Lidar(){};   ///Constructeur
+Lidar::Lidar(){}  ///Constructeur
 
 // Send X Y Z STRENGTH to the computer
 // @TODO: reverse kinematics
 
 void Lidar::send_pos(){
   if(distance == 0) return;
-  
+  uint16_t pulses = 0;
   theta = (float)pulses*360.0f/PULSE_PER_REV; //compute angle from motor pulses
   theta *= PI / 180.0f; // convert to radians
   
