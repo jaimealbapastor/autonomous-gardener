@@ -2,6 +2,7 @@ import glob
 import sys
 import serial
 
+
 def findPort():
     """Find the serial port that the Arduino is connected to.
     """
@@ -26,3 +27,12 @@ def findPort():
             pass
     return result
 
+def sendToSerial(message, port = 'COM3'):
+    """Send the data to the serial port.
+    """
+    # Open the serial port
+    ser = serial.Serial(port, 9600)
+    # Write the data to the serial port
+    ser.write(message)  
+    # Close the serial port
+    ser.close()
