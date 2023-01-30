@@ -27,8 +27,9 @@ public:
   uint8_t* getDirections();
   uint8_t* getSpeeds();
 
-  void forward();
-  void forward(uint8_t speed);
+  void forward(uint8_t speed, uint32_t duration = 0);
+  void backward(uint8_t speed, uint32_t duration = 0);
+
 };
 
 #endif

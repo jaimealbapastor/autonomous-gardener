@@ -12,6 +12,7 @@ Wheels::Wheels(uint8_t direction_pins[], uint8_t pwd_pins[], uint8_t size) {
 
 Wheels::~Wheels() {}
 
+
 void Wheels::setSpeed(uint8_t motors[], int8_t percent_speeds[], uint8_t size) {
   // compute the sign and pwm-speeds (255) of each speed
 
@@ -21,12 +22,12 @@ void Wheels::setSpeed(uint8_t motors[], int8_t percent_speeds[], uint8_t size) {
     if (percent_speeds[i] > 0) this->_motor_dir[mi] = 1;  // sign of the speed, i.e. 1 for positive speed and -1 for negative speed
     else this->_motor_dir[mi] = -1;
 
-    percent_speeds[i] *= this->_motor_dir[mi];  // make speed positive
+    percent_speeds[i] = percent_speeds[i] * this->_motor_dir[mi];  // absolute value of the speed
 
     if (percent_speeds[i] >= 100)
-      this->_motor_speeds[mi] = this->_max_speed;  // set speed limit
+      this->_motor_speeds[mi] = this->_max_speed;  // if the speed is too high, set it to the maximum
     else
-      this->_motor_speeds[mi] = percent_speeds[i] * this->_max_speed / 100;  // cross product : from % to 255
+      this->_motor_speeds[mi] = percent_speeds[i] * this->_max_speed / 100;  //compute the pwm-speeds (255) of each speed
   }
 }
 
@@ -41,3 +42,16 @@ uint8_t *Wheels::getDirections() {
 uint8_t *Wheels::getSpeeds() {
   return this->_motor_speeds;
 }
+
+void Wheels::forward(uint8_t speed, uint32_t duration) {
+  uint8_t motors[] = {0, 1, 2, 3, 4, 5};
+  int8_t speeds[] = {speed, speed, speed, speed, speed, speed};
+  this->setSpeed(motors, speeds, this->_nb_of_motors);
+}
+
+void Wheels::backward(uint8_t speed, uint32_t duration) {
+  uint8_t motors[] = {0, 1, 2, 3, 4, 5};
+  int8_t speeds[] = {-speed, -speed, -speed, -speed, -speed, -speed};
+  this->setSpeed(motors, speeds, this->_nb_of_motors);
+}
+
