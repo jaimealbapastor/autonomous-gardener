@@ -12,5 +12,6 @@
 | 10/12/2022 | [Session 7](session07.md)|
 | 14/12/2022 | [Session 8](session08.md)|
 | 16/12/2022 | [Session 9](session09.md)|
-| 16/01/2022 | [Session 10](session10.md)|
-| 31/01/2022 | [Session 11](session11.md)|
+| 16/01/2023 | [Session 10](session10.md)|
+| 31/01/2023 | [Session 11](session11.md)|
+| 07/02/2023 | [Session 12](session12.md)|
