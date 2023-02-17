@@ -52,14 +52,15 @@ void setup() {
   digitalWrite(pwm, LOW);
   digitalWrite(dir, LOW);
   Serial.begin(9600);
+  delay(5000);
 }
 
 void loop() {
 
-  for (int i =0; i > 255; i++){
-    digitalWrite(pwm, HIGH);
-    Serial.println("avant");
-    delay(300);
+  for (int i =0; i < 255; i++){
+    Serial.println(i);
+    analogWrite(pwm, i);
+    delay(20);
   }
 }
 ````
