@@ -1,6 +1,6 @@
 ## Rapports de séance Brice Mabille
 
-- 06/01/2023 : Setup du projet GitHub partagé
+- 06/02/2023 : Setup du projet GitHub partagé
 
 # Séance 12
 
