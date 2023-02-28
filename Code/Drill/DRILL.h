@@ -4,10 +4,10 @@
 #include <stdint.h>
 
 class DRILL {
-private:
+///private:
 
 
-  uint8_t _nb_of_motors = 0;
+ /// uint8_t _nb_of_motors = 0;
 
 
 public:
