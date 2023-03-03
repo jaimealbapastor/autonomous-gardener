@@ -15,3 +15,5 @@
 | 16/01/2023 | [Session 10](session10.md)|
 | 31/01/2023 | [Session 11](session11.md)|
 | 07/02/2023 | [Session 12](session12.md)|
+| 14/02/2023 | [Session 13](session13.md)|
+| 28/02/2023 | [Session 14](session14.md)|
