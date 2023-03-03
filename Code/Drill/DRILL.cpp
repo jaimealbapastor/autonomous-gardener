@@ -21,6 +21,23 @@ void DRILL::rotation(pwm, dir){
   }
 }
 
+void DRILL::systemdrill(){
+    ///position 0 : drill rangé
+    ///position 1 : drill en bas
+    ///changement position 0 à 1 et drill tourne
+
+    ///premiere idée:
+    if (position == 0){
+        translation(Pas,Dir);
+        rotation(pwm,dir);
+        
+        
+
+
+    }
+
+}
+
 void DRILL::stop(){
 
 }

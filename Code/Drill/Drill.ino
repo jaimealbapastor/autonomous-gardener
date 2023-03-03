@@ -15,5 +15,5 @@ Serial.begin(9600);
 
 void loop() {
     translation(Pas, Dir);
-    rotation(pwm, dir)
+    rotation(pwm, dir);
 }
