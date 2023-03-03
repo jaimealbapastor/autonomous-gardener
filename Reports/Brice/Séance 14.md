@@ -4,8 +4,11 @@
 
 # Séance 14
 
-Impression Lien
-fabrication boite pour drill
-mise en fonction du stepper avec le driver
-début de fixation du drill dans la boite
-début du code DRILL pour faire fonctionner le stepper puis le motor cc.
+During this session, I printed the link between the stepper and the endless screw.
+I built the box for the drilling system with the Laser Machine.
+I tested the stepper in electronics.
+I started link the box with the drill.
+And I begun the Arduino Code for the functionement of the drill. It is on Github in the DRILL file.
+
+![img](../../Documentation/Images/BoxDrill.jpeg)  
+
