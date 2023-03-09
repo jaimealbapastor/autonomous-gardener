@@ -4,9 +4,9 @@
 
 # Séance 13
 
-Drilling system
+During this session, I focused on the Drilling system and it advanced well.
 
-One size of the box re-built with holes to link the stepper and enter the electronics
+Firstly I re-built one size of the box and I thought about put some holes to link the stepper and enter the electronics inside the box.
 
 Joined the box's sides 
 
