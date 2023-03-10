@@ -8,13 +8,13 @@ During this session, I focused on the Drilling system and it advanced well.
 
 Firstly I re-built one size of the box and I thought about put some holes to link the stepper and enter the electronics inside the box.
 
-Joined the box's sides 
+After this, I joined the box's sides.
 
-Print the link again for the extremity of the endless screw
+I printed the link again for the extremity of the endless screw to put in the frame and allows a better set of the screw.
 
-Cut the stems to have the right size with the box
+Then, I cutted the stems to have the right size in the box.
 
-I joined some squares to put in the frame.
+I set some squares to put in the frame and allows a nice fixation.
 
 ![img](../../Documentation/Images/Drillingsystem16.jpeg) 
 
@@ -22,3 +22,5 @@ I joined some squares to put in the frame.
 ![img](../../Documentation/Images/ROBOT2.jpeg)
 
 Next session, I will cut a hole in the frame to join the drilling system in the robot.
+
+And I will link the drilling system into the frame.
