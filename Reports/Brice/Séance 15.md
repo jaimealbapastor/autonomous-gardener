@@ -2,7 +2,7 @@
 
 - 07/03/2023 : Setup du projet GitHub partagé
 
-# Séance 13
+# Séance 15
 
 During this session, I focused on the Drilling system and it advanced well.
 
