@@ -11,7 +11,7 @@ And I printed one more just in case another one breaks.
 |:---:|
 
 2.	Secondly, I **replaced the pointy screws** that were holding the triangular support brackets.  
-This screws aren't meant for this use and therefore the wooden chassis wasn't stable. Plus I got pricked all the time.  
+These screws weren't meant for this use and therefore the wooden chassis wasn't stable. Plus I got pricked all the time.  
 
 |![img](../../Documentation/Images/session17_7.jpg)|![img](../../Documentation/Images/session17_8.jpg)|
 |:---:|:---:|
