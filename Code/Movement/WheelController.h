@@ -21,7 +21,7 @@ public:
   ~WheelController();
 
   void setSpeed(uint8_t motors[], int8_t pwm_speeds[], uint8_t size);
-  void incrementSpeed(uint8_t motors[], int8_t incrementations[], uint8_t size);
+  void incrementSpeed(uint8_t motors[], int8_t increments[], uint8_t size);
 
   uint8_t getNumberOfMotors();
   uint8_t *getDirections();
