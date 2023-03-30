@@ -12,7 +12,7 @@ One of the motors was not welded correctly during the last session, so I quickly
 
 ![img](../../Documentation/Images/session18_2.jpg)
 
-## 2. Tour of drivers
+## 2. Tower of drivers
 
 The drivers were free to move around the frame with not much organization. Therefore, I added spacers between the drivers to fix them. 
 
