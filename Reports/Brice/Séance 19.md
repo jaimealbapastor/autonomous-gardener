@@ -1,3 +1,15 @@
+## Rapports de séance Brice Mabille
+
+- 04/04/2023 : Setup du projet GitHub partagé
+
+# Séance 19
+
+During this session, I linked the servo. 
+
+I made the arduino code:
+
+````arduino
+
 #include <Servo.h>
 
 Servo myservo;
@@ -38,3 +50,11 @@ void loop() {
     delay(30);      // waits 15ms for the servo to reach the position
   }
 }
+
+````
+
+But the electronics don't worked well because it was not the right alimentation for the servo.
+
+So I searched a converter to change 12V to 6V and make the servo work.
+
+For the next session, we would like to re-make the mechanics of the robot to avoid too much tightening torque.
