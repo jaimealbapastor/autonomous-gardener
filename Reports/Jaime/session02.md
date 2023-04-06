@@ -1,4 +1,4 @@
-***[<< previous session](Session01.md) | [next session >>](Session03.md)***
+***[<< previous session](session01.md) | [next session >>](session03.md)***
 
 # Session 2
 
@@ -71,4 +71,4 @@ All the distances are saved in variables so we can easily modify them if needed.
 
 Finally, I've discussed with Xavier Lebreton about how to make this pieces and it should be pretty easy to make them.
 
-***[<< previous session](Session01.md) | [next session >>](Session03.md)***
+***[<< previous session](session01.md) | [next session >>](session03.md)***

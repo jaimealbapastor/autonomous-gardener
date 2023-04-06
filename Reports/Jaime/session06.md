@@ -1,4 +1,4 @@
-***[<< previous session](Session05.md) | [next session >>](Session07.md)***
+***[<< previous session](session05.md) | [next session >>](session07.md)***
 
 # Session 6
 
@@ -43,4 +43,4 @@ Finally, I am facing difficulties extruding the other tube joints. I'm trying to
 
 ![img](../../Documentation/Images/main_pivot_4.png)
 
-***[<< previous session](Session05.md) | [next session >>](Session07.md)***
+***[<< previous session](session05.md) | [next session >>](session07.md)***

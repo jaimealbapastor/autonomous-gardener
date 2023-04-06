@@ -1,4 +1,4 @@
-***[<< previous session](Session14.md) | [next session >>](Session16.md)***
+***[<< previous session](session14.md) | [next session >>](session16.md)***
 
 # Session 15
 
@@ -30,4 +30,4 @@ Here is the final result:
 
 We have finally received the control boards for the motors- During the next session I will be able to set up the power station and connect all the DC and servo motors and test [my code](../../Code/Movement/).
 
-***[<< previous session](Session14.md) | [next session >>](Session16.md)***
+***[<< previous session](session14.md) | [next session >>](session16.md)***

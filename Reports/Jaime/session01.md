@@ -1,4 +1,4 @@
-***[next session >>](Session02.md)***
+***[next session >>](session02.md)***
 
 # Session 1
 
@@ -49,4 +49,4 @@ The electronics professor came up to us during the session to discuss some flaws
 
 - Second, since the soil can be difficult to pull, burying the seed with a shovel might not be the best approach to take. But we came up with an elegant solution: rotating the motor in the other direction. By doing it this way, we could fill the hole without adding a shovel.
 
-[***next session >>***](Session02.md)
+[***next session >>***](session02.md)

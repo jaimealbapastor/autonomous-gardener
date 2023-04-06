@@ -1,4 +1,4 @@
-***[<< previous session](Session17.md) | [next session >>](Session19.md)***
+***[<< previous session](session17.md) | [next session >>](session19.md)***
 
 # Session 18
 
@@ -123,4 +123,4 @@ However it's still under development.
 
 ![img](../../Documentation/Images/session18_3.jpg)
 
-***[<< previous session](Session17.md) | [next session >>](Session19.md)***
+***[<< previous session](session17.md) | [next session >>](session19.md)***

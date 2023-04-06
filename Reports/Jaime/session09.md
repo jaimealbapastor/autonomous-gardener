@@ -1,4 +1,4 @@
-***[<< previous session](Session08.md) | [next session >>](Session10.md)***
+***[<< previous session](session08.md) | [next session >>](session10.md)***
 
 # Session 9
 
@@ -26,4 +26,4 @@ In order to prevent the frame from collapsing, I additionally applied scotch tap
 
 ![img](../../Documentation/Images/frame1.jpg)
 
-***[<< previous session](Session08.md) | [next session >>](Session10.md)***
+***[<< previous session](session08.md) | [next session >>](session10.md)***

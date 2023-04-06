@@ -1,4 +1,4 @@
-***[<< previous session](Session04.md) | [next session >>](Session06.md)***
+***[<< previous session](session04.md) | [next session >>](session06.md)***
 
 # Session 5
 
@@ -53,4 +53,4 @@ Plus the bearing will be supported by the own differential.
 
 I will try to work on this last point during the weekend so I can print some pieces on monday.
 
-***[<< previous session](Session04.md) | [next session >>](Session06.md)***
+***[<< previous session](session04.md) | [next session >>](session06.md)***

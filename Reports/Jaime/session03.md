@@ -1,4 +1,4 @@
-***[<< previous session](Session02.md) | [next session >>](Session04.md)***
+***[<< previous session](session02.md) | [next session >>](session04.md)***
 
 # Session 3
 
@@ -38,4 +38,4 @@ But after asking for advice, it ocurred to me that I could cut triangular shapes
 |![branch_assembly1](../../Documentation/Images/branch_sketch1.png)|
 |:---:|
 
-***[<< previous session](Session02.md) | [next session >>](Session04.md)***
+***[<< previous session](session02.md) | [next session >>](session04.md)***

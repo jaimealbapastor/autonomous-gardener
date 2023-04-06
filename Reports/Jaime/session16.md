@@ -1,4 +1,4 @@
-***[<< previous session](Session15.md) | [next session >>](Session17.md)***
+***[<< previous session](session15.md) | [next session >>](session17.md)***
 
 # Session 16
 
@@ -45,4 +45,4 @@ And with a simple `INO` script we can test if everything is works fine :
 
 ![img](../../Documentation/Images/cables.gif)
 
-***[<< previous session](Session15.md) | [next session >>](Session17.md)***
+***[<< previous session](session15.md) | [next session >>](session17.md)***

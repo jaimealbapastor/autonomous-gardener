@@ -1,4 +1,4 @@
-***[<< previous session](Session10.md) | [next session >>](Session12.md)***
+***[<< previous session](session10.md) | [next session >>](session12.md)***
 
 # Session 11
 
@@ -41,4 +41,4 @@ I will print them again after adding some adjustments I have in mind.
 
 so focused :)
 
-***[<< previous session](Session10.md) | [next session >>](Session12.md)***
+***[<< previous session](session10.md) | [next session >>](session12.md)***

@@ -1,4 +1,4 @@
-***[<< previous session](Session09.md) | [next session >>](Session11.md)***
+***[<< previous session](session09.md) | [next session >>](session11.md)***
 
 # Session 10
 
@@ -48,4 +48,4 @@ Although I would like to make some modifications in order to make it more solid.
 
 All these pieces have been printed but I forgot to take some pictures.
 
-***[<< previous session](Session09.md) | [next session >>](Session11.md)***
+***[<< previous session](session09.md) | [next session >>](session11.md)***

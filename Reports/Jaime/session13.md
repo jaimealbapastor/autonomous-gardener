@@ -1,4 +1,4 @@
-***[<< previous session](Session12.md) | [next session >>](Session14.md)***
+***[<< previous session](session12.md) | [next session >>](session14.md)***
 
 # Session 13
 
@@ -26,4 +26,4 @@ Nonetheless, this work should greatly improve fluidity and decrease future crash
 
 ![img](../../Documentation/Images/piece6.jpg)  
 
-***[<< previous session](Session12.md) | [next session >>](Session14.md)***
+***[<< previous session](session12.md) | [next session >>](session14.md)***

@@ -1,4 +1,4 @@
-***[<< previous session](Session16.md) | [next session >>](Session18.md)***
+***[<< previous session](session16.md) | [next session >>](session18.md)***
 
 # Session 17
 
@@ -48,4 +48,4 @@ Each driver has two direction and speed pins for two motors, as well as a common
 
 I wanted to finish uploading the code before the end of this session but I didn't have time. Next session will be THE ONE.
 
-***[<< previous session](Session16.md) | [next session >>](Session18.md)***
+***[<< previous session](session16.md) | [next session >>](session18.md)***

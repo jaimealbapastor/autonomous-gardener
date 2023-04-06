@@ -1,4 +1,4 @@
-***[<< previous session](Session13.md) | [next session >>](Session15.md)***
+***[<< previous session](session13.md) | [next session >>](session15.md)***
 
 # Session 14
 
@@ -13,4 +13,4 @@ I continued drilling precise holes for the screws in order to reduce useless mot
 
 Although I've gained a lot experience in manufacturing and my work is way more efficient now, this process is very slow and it takes more than one session a week to finish it.
 
-***[<< previous session](Session13.md) | [next session >>](Session15.md)***
+***[<< previous session](session13.md) | [next session >>](session15.md)***

@@ -1,4 +1,4 @@
-***[<< previous session](Session03.md) | [next session >>](Session05.md)***
+***[<< previous session](session03.md) | [next session >>](session05.md)***
 
 # Session 4
 
@@ -54,4 +54,4 @@ As a result, my next session will be devoted to:
 Note  
 [*S'inscrire au GDR*](https://www.gdr-robotique.org/inscription/)
 
-***[<< previous session](Session03.md) | [next session >>](Session05.md)***
+***[<< previous session](session03.md) | [next session >>](session05.md)***

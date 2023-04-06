@@ -1,4 +1,4 @@
-***[<< previous session](Session06.md) | [next session >>](Session08.md)***
+***[<< previous session](session06.md) | [next session >>](session08.md)***
 
 # Session 7
 
@@ -33,4 +33,4 @@ Finally, I placed two lids to the piece's sides so that the bearings can be take
 |![img](../../Documentation/Images/main_pivot_7.png)|![img](../../Documentation/Images/main_pivot_8.png)|
 |:---:|:---:|
 
-***[<< previous session](Session06.md) | [next session >>](Session08.md)***
+***[<< previous session](session06.md) | [next session >>](session08.md)***

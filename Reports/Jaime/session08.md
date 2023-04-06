@@ -1,4 +1,4 @@
-***[<< previous session](Session07.md) | [next session >>](Session09.md)***
+***[<< previous session](session07.md) | [next session >>](session09.md)***
 
 # Session 8
 
@@ -26,4 +26,4 @@ The final result of the piece:
 
 At the end of the session I started the 3d impression of the piece.
 
-***[<< previous session](Session07.md) | [next session >>](Session09.md)***
+***[<< previous session](session07.md) | [next session >>](session09.md)***
