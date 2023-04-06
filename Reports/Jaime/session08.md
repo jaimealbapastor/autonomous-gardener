@@ -1,3 +1,5 @@
+***[<< previous session](Session07.md) | [next session >>](Session09.md)***
+
 # Session 8
 
 This session's activity was to redesign the main pivot's piece.  
@@ -23,3 +25,5 @@ The final result of the piece:
 |:---:|:---:|
 
 At the end of the session I started the 3d impression of the piece.
+
+***[<< previous session](Session07.md) | [next session >>](Session09.md)***

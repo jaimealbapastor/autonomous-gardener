@@ -1,3 +1,5 @@
+***[<< previous session](Session01.md) | [next session >>](Session03.md)***
+
 # Session 2
 
 ## Components required
@@ -16,9 +18,9 @@ However, we were still unsure of some of them, so we had to verify their suitabi
 ### 1. Auger
 
 We chose to use a drill to create the hole where the seed would be inserted. And because the seed is relatively little, the auger doesn't require a large diameter.  
-However, every auger we could find online was either excessively large or inadequate for its intended function. 
+However, every auger we could find online was either excessively large or inadequate for its intended function.
 
-*Solution: 3D print the auger.*   
+*Solution: 3D print the auger.*
 We will then be able to easily adapt the model to our specifications.
 
 ### 2. Drill motor
@@ -69,3 +71,4 @@ All the distances are saved in variables so we can easily modify them if needed.
 
 Finally, I've discussed with Xavier Lebreton about how to make this pieces and it should be pretty easy to make them.
 
+***[<< previous session](Session01.md) | [next session >>](Session03.md)***

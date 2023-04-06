@@ -1,3 +1,5 @@
+***[<< previous session](Session17.md) | [next session >>](Session19.md)***
+
 # Session 18
 
 During this session, I was able to make all the DC motors work. As a result the robot could move in a preestablished path.  
@@ -121,15 +123,4 @@ However it's still under development.
 
 ![img](../../Documentation/Images/session18_3.jpg)
 
-***[<< previous session](Session17.md) | ~ ~~| [next session >>](Session19.md)***
-
-<div style="text-align: left"> <a href="Session17.md"><< previous session</a></div><div style="text-align: right"> <a href="Session19.md">next session >></a></div>
-
-<div style="text-align: center"> <a href="Session17.md"><< previous session</a> || <a href="Session19.md">next session >></a></div>
-
-<p style="text-align:left;">
-    <a href="Session17.md"><< previous session</a>
-    <span style="float:right;">
-        next session >>
-    </span>
-</p>
+***[<< previous session](Session17.md) | [next session >>](Session19.md)***

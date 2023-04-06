@@ -1,3 +1,5 @@
+***[<< previous session](Session02.md) | [next session >>](Session04.md)***
+
 # Session 3
 
 This session was dedicated to the modeling of the suspension pieces. My intention was to complete two or three, but it took longer than expected.
@@ -35,3 +37,5 @@ But after asking for advice, it ocurred to me that I could cut triangular shapes
 
 |![branch_assembly1](../../Documentation/Images/branch_sketch1.png)|
 |:---:|
+
+***[<< previous session](Session02.md) | [next session >>](Session04.md)***

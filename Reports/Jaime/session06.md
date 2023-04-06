@@ -1,3 +1,5 @@
+***[<< previous session](Session05.md) | [next session >>](Session07.md)***
+
 # Session 6
 
 ## Differential production
@@ -40,3 +42,5 @@ However, I'm still considering whether to put them inside or make them visible s
 Finally, I am facing difficulties extruding the other tube joints. I'm trying to make them angled like the mars rover, but if it takes too long, I might just make them straight.
 
 ![img](../../Documentation/Images/main_pivot_4.png)
+
+***[<< previous session](Session05.md) | [next session >>](Session07.md)***

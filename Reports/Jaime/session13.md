@@ -1,3 +1,5 @@
+***[<< previous session](Session12.md) | [next session >>](Session14.md)***
+
 # Session 13
 
 Powering the motors and verifying the `C++` code should be the next steps in the project.
@@ -23,3 +25,5 @@ I prioritized the precision over the speed, so I only had time to finish one sid
 Nonetheless, this work should greatly improve fluidity and decrease future crashes.  
 
 ![img](../../Documentation/Images/piece6.jpg)  
+
+***[<< previous session](Session12.md) | [next session >>](Session14.md)***

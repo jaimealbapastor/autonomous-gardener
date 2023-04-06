@@ -1,3 +1,5 @@
+***[<< previous session](Session09.md) | [next session >>](Session11.md)***
+
 # Session 10
 
 Since the last session, there has been quite improvements.
@@ -45,3 +47,5 @@ Although I would like to make some modifications in order to make it more solid.
 |![img](../../Documentation/Images/servo3.jpg)|![img](../../Documentation/Images/servo4.jpg)|
 
 All these pieces have been printed but I forgot to take some pictures.
+
+***[<< previous session](Session09.md) | [next session >>](Session11.md)***

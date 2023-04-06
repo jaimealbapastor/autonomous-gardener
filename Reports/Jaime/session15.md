@@ -1,3 +1,5 @@
+***[<< previous session](Session14.md) | [next session >>](Session16.md)***
+
 # Session 15
 
 During this session I finished to build and assemble all the last pieces of the suspension structure.
@@ -27,3 +29,5 @@ Here is the final result:
 ## Next steps
 
 We have finally received the control boards for the motors- During the next session I will be able to set up the power station and connect all the DC and servo motors and test [my code](../../Code/Movement/).
+
+***[<< previous session](Session14.md) | [next session >>](Session16.md)***
