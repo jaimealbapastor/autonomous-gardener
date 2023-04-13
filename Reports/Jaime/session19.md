@@ -1,5 +1,4 @@
-***[<< previous session](session18.md)***
- <!-- | [next session >>](session20.md)*** -->
+***[<< previous session](session18.md) | [next session >>](session20.md)***
 
 # Session 19
 
@@ -154,5 +153,4 @@ lscpu   # check the core
 
 ![img](../../Documentation/Images/session19_6.png)
 
-***[<< previous session](session18.md)***
- <!-- | [next session >>](session20.md)*** -->
+***[<< previous session](session18.md) | [next session >>](session20.md)***
