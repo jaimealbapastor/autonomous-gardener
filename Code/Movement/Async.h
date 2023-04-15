@@ -14,7 +14,7 @@ public:
   bool can_be_destroyed;
   Task *next;
 
-  Task(uint8_t id, unsigned int last_chrono);
+  Task(uint8_t id, unsigned int last_chrono, void (*foo)(int));
   ~Task();
 };
 

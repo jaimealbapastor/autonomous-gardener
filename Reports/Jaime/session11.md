@@ -1,3 +1,5 @@
+***[<< previous session](session10.md) | [next session >>](session12.md)***
+
 # Session 11
 
 The goal of this session was to finish the movement structure for the university's open day.  
@@ -38,3 +40,5 @@ I will print them again after adding some adjustments I have in mind.
 ![img](../../Documentation/Images/JAIMEBRICEPICTURE.jpg)
 
 so focused :)
+
+***[<< previous session](session10.md) | [next session >>](session12.md)***

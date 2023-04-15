@@ -1,3 +1,5 @@
+***[<< previous session](session11.md) | [next session >>](session13.md)***
+
 # Session 12
 
 This was the session in which I would finally set up the **CC and servo motors** so that I could test the code I had already written ([here](../../Code/Movement/)).  
@@ -52,3 +54,5 @@ I tested a servo motor in order to get an idea of the type of code I have to imp
 
 I observed that, although it said 270º, the servo motor doesn't turn all the way to 270º, but approximately to 240º.  
 This will have to be taken into consideration when writing the code (maybe adding some kind of offset).  
+
+***[<< previous session](session11.md) | [next session >>](session13.md)***

@@ -1,3 +1,5 @@
+***[next session >>](session02.md)***
+
 # Session 1
 
 ## **Organizing the session**
@@ -46,3 +48,5 @@ The electronics professor came up to us during the session to discuss some flaws
 - First off, the 3 cm diameter drill requires a CC motor with enough torque, which we haven't chosen. Given that the soil is often hard, this is likely to become a major problem.
 
 - Second, since the soil can be difficult to pull, burying the seed with a shovel might not be the best approach to take. But we came up with an elegant solution: rotating the motor in the other direction. By doing it this way, we could fill the hole without adding a shovel.
+
+[***next session >>***](session02.md)

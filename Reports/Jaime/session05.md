@@ -1,3 +1,5 @@
+***[<< previous session](session04.md) | [next session >>](session06.md)***
+
 # Session 5
 
 This was quite a chaotic session but I managed develop some good ideas.
@@ -50,3 +52,5 @@ The new differential will be made out of three layers: plexiglass, wood and plex
 Plus the bearing will be supported by the own differential.  
 
 I will try to work on this last point during the weekend so I can print some pieces on monday.
+
+***[<< previous session](session04.md) | [next session >>](session06.md)***

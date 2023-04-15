@@ -1,3 +1,5 @@
+***[<< previous session](session17.md) | [next session >>](session19.md)***
+
 # Session 18
 
 During this session, I was able to make all the DC motors work. As a result the robot could move in a preestablished path.  
@@ -14,7 +16,7 @@ One of the motors was not welded correctly during the last session, so I quickly
 
 ## 2. Tower of drivers
 
-The drivers were free to move around the frame with not much organization. Therefore, I added spacers between the drivers to fix them. 
+The drivers were free to move around the frame with not much organization. Therefore, I added spacers between the drivers to fix them.
 
 ![img](../../Documentation/Images/session18_7.jpg)
 
@@ -36,7 +38,7 @@ const int pwdPin = 5;
 int speed;
 short direction = 0;
 
-short noot(short n) {	// imitates the `not` function
+short noot(short n) { // imitates the `not` function
   return -n + 1;
 }
 
@@ -53,8 +55,8 @@ void slowToSpeed(int* speed, int newSpeed, int pwdPin) {
     analogWrite(pwdPin, i);
     delay(20);
 
-    if ((i < 0) || (i > 255)) {	// if the speed overpasses the limits
-      analogWrite(pwdPin, 0);	// set speed to 0
+    if ((i < 0) || (i > 255)) { // if the speed overpasses the limits
+      analogWrite(pwdPin, 0); // set speed to 0
       *speed = 0;
       return;
     }
@@ -67,14 +69,14 @@ void setup() {
   pinMode(dirPinG, OUTPUT);
   pinMode(pwdPin, OUTPUT);
 
-  changeDirection(&direction, dirPinD, dirPinG);	// set initial direction
+  changeDirection(&direction, dirPinD, dirPinG); // set initial direction
 }
 
 void loop() {
   slowToSpeed(&speed, 200, pwdPin); // accelerate
-  slowToSpeed(&speed, 0, pwdPin);	// decelerate
-  delay(1000);						// stop for 1 second
-  changeDirection(&direction, dirPinD, dirPinG);	// change direction
+  slowToSpeed(&speed, 0, pwdPin); // decelerate
+  delay(1000);      // stop for 1 second
+  changeDirection(&direction, dirPinD, dirPinG); // change direction
 }
 ```
 
@@ -120,3 +122,5 @@ That is why I have started to write an [`Async`](../../Code\Movement\Async.h) cl
 However it's still under development.
 
 ![img](../../Documentation/Images/session18_3.jpg)
+
+***[<< previous session](session17.md) | [next session >>](session19.md)***

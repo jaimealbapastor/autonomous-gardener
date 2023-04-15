@@ -1,3 +1,5 @@
+***[<< previous session](session03.md) | [next session >>](session05.md)***
+
 # Session 4
 
 During this session I received the pipes and bearings for the differential.  
@@ -51,3 +53,5 @@ As a result, my next session will be devoted to:
 ---
 Note  
 [*S'inscrire au GDR*](https://www.gdr-robotique.org/inscription/)
+
+***[<< previous session](session03.md) | [next session >>](session05.md)***

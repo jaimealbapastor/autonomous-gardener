@@ -1,3 +1,5 @@
+***[<< previous session](session08.md) | [next session >>](session10.md)***
+
 # Session 9
 
 I first started this session by taking the finished 3d impression of the main pivot.  
@@ -23,3 +25,5 @@ Brice and I also talked about how to attach the differential to the frame. We ma
 In order to prevent the frame from collapsing, I additionally applied scotch tape to it.
 
 ![img](../../Documentation/Images/frame1.jpg)
+
+***[<< previous session](session08.md) | [next session >>](session10.md)***

@@ -1,3 +1,5 @@
+***[<< previous session](session15.md) | [next session >>](session17.md)***
+
 # Session 16
 
 |![img](../../Documentation/Images/ROBOT2.jpeg)|
@@ -6,6 +8,7 @@
 Now that the suspension is finished, I can follow up with the motors.
 
 So, in order to make the robot move (without rotations), I have to:
+
 1. **connect the power station to the drivers**
 
 We have 6 motors, therefore we need 3 drivers that can control each motor forwards and backwards.
@@ -34,7 +37,6 @@ Now each motor can be easily controlled through these `DIR` and `PWD` pins.
 |![img](../../Documentation/Images/cables4.jpg)|
 |:---:|
 
-
 ## 1. Connect power station and driver
 
 Now that everything is correctly set up, we only have to connect the male plug of the power station to the female plug which will supply power to the drivers.
@@ -42,3 +44,5 @@ Now that everything is correctly set up, we only have to connect the male plug o
 And with a simple `INO` script we can test if everything is works fine :
 
 ![img](../../Documentation/Images/cables.gif)
+
+***[<< previous session](session15.md) | [next session >>](session17.md)***
