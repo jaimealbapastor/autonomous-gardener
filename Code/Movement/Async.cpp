@@ -1,11 +1,11 @@
 #include "Async.h"
 
-Task::Task(unsigned int last_chrono)
+Task::Task(uint8_t id, unsigned int last_chrono, void (*foo)(int))
 {
-	this->id = id;
-	this->last_chrono = last_chrono;
-	this->next = nullptr;
-	this->can_be_destroyed = false;
+	//this->id = id;
+	//this->last_chrono = last_chrono;
+	//this->next = nullptr;
+	//this->can_be_destroyed = false;
 }
 
 Task::~Task()
@@ -20,6 +20,6 @@ void Async::add()
 	if (Async::first_task == nullptr)
 	{
 		// TODO change id generation method
-		Async::first_task = new Task(++last_id, 0);
+		//Async::first_task = new Task(++last_id, 0);
 	}
 }
