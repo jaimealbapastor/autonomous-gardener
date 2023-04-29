@@ -17,7 +17,8 @@ I'm not so sure about the change of the orientation direction which will not be 
 
 For the next session, I will link the drill to the frame and make it works with the electronics to present the robot at the oral.
 
-![img](../../Documentation/Images/.jpeg) ///photo frame
+![img](../../Documentation/Images/CABLES.jpeg)
+![img](../../Documentation/Images/CABLES2.jpeg)
 
 
 
