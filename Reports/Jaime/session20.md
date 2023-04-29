@@ -1,5 +1,4 @@
-***[<< previous session](session19.md)***
- <!-- | [next session >>](session21.md)*** -->
+***[<< previous session](session19.md) | [next session >>](session21.md)***
 
 # Session 20
 
@@ -28,5 +27,4 @@ I created "potential poles" to insert the wires.
 |:---:|:---:|
 |![img](../../Documentation/Images/session20_2.jpg)|![img](../../Documentation/Images/session20_3.jpg)|
 
-***[<< previous session](session19.md)***
- <!-- | [next session >>](session21.md)*** -->
+***[<< previous session](session19.md) | [next session >>](session21.md)***

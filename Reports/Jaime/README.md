@@ -1,8 +1,8 @@
 # **Session reports - Jaime Alba**
 
-Most recent report: [Session 20](session20.md)
+Most recent report: [Session 21](session21.md)
 
-|Date|Session|
+|Date|Session report|
 |:---:|:---:|
 | 16/09/2022 | Setup of the shared GitHub repository|
 | 14/10/2022 | [Session 1](session01.md)|
@@ -25,3 +25,4 @@ Most recent report: [Session 20](session20.md)
 | 28/03/2023 | [Session 18](session18.md)|
 | 04/04/2023 | [Session 19](session19.md)|
 | 11/04/2023 | [Session 20](session20.md)|
+| 25/04/2023 | [Session 21](session21.md)|
