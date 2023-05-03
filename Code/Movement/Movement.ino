@@ -49,29 +49,14 @@ uint8_t dir_pins[6] = { left_dir_pin, right_dir_pin,
 uint8_t pwd_pins[6] = { left_pwm_pin, right_pwm_pin,
                         left_pwm_pin, right_pwm_pin,
                         left_pwm_pin, right_pwm_pin };  // pins for speed
+uint8_t servo_pins[6] = { 9, 11,
+                          0, 0,
+                          8, 10 };
 
-WheelController w(dir_pins, pwd_pins);
 
-void test_1() {
-  Serial.println(" === Test 1 | Changing speeds and directions ===");
 
-  static const uint8_t nbMotorsChange = 3;
-  uint8_t someMotors[nbMotorsChange] = { 0, 2, 4 };      // motors to change speed
-  int8_t new_speeds[nbMotorsChange] = { -75, 50, -25 };  // new speeds for motors
+WheelController w(dir_pins, pwd_pins, servo_pins);
 
-  Serial.print("Speed: ");
-  printUnsignedList(w.getSpeeds(), nbMotors);  // display speed for all motors
-
-  Serial.print("\nDirection: ");
-  printSignedList(w.getDirections(), nbMotors);  // display direction for all motors
-
-  w.setSpeed(someMotors, new_speeds, nbMotorsChange);  // set speed for some motors
-
-  Serial.print("\nModified speed: ");
-  printUnsignedList(w.getSpeeds(), nbMotors);  // display modified speed for all motors
-  Serial.print("\nModified directions: ");
-  printSignedList(w.getDirections(), nbMotors);  // display modified direction for all motors
-}
 
 void test_class() {
   w.forward(100);
@@ -84,6 +69,40 @@ void test_class() {
   delay(2000);
 }
 
+void test_servos() {
+  w.turn(10);
+  delay(4000);
+  w.turn(-10);
+  delay(4000);
+}
+
+void test_turn_round() {
+  // w.setSpeed(uint8_t *motors, int8_t *pwm_speeds, uint8_t size);
+  w.forward(200);
+  delay(2000);
+  w.stop(1000);
+  w.backward(200);
+  delay(2000);
+  
+  w.stop(1000);
+
+  w.setSpeed(200);
+  w.turn_abs(10);
+  delay(2000);
+  w.stop(1000);
+  w.setSpeed(-200);
+  delay(1000);
+
+  w.stop(1000);
+
+  w.setSpeed(200);
+  w.turn_abs(-10);
+  delay(2000);
+  w.stop(1000);
+  w.setSpeed(-200);
+  delay(1000);
+}
+
 void setup() {
   Serial.begin(9600);
 
@@ -92,9 +111,20 @@ void setup() {
   pinMode(left_pwm_pin, OUTPUT);
   pinMode(left_dir_pin, OUTPUT);
 
-  
+  for (uint8_t i = 8; i <= 11; i++)
+    pinMode(i, OUTPUT);
+
+  delay(2000);
 }
+
+int int_received;
+
 void loop() {
-  
-  test_class();
+  if (Serial.available()) {
+    int_received = Serial.parseInt();
+    w.turn(int_received);
+  }
+
+  //test_servos()
+  //test_class();
 }
