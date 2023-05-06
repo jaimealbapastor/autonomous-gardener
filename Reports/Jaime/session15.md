@@ -28,6 +28,6 @@ Here is the final result:
 
 ## Next steps
 
-We have finally received the control boards for the motors- During the next session I will be able to set up the power station and connect all the DC and servo motors and test [my code](../../Code/Movement/).
+We have finally received the control boards for the motors- During the next session I will be able to set up the power station and connect all the DC and servo motors and test [my code](../../Code/tests/Movement/).
 
 ***[<< previous session](session14.md) | [next session >>](session16.md)***

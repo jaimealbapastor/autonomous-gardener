@@ -4,7 +4,7 @@
 
 ## Asynchronous code
 
-First of all, I discussed with Sebastien some aspects regarding the [`Async`](../../Code/Movement/Async.h) c++ class. We went through the main characteristics and possible issues that may appear.
+First of all, I discussed with Sebastien some aspects regarding the [`Async`](../../Code/tests/Movement/Async.h) c++ class. We went through the main characteristics and possible issues that may appear.
 He then recommended the `friend` attribute which I didn't know, and that enables sharing private attributes to *friendly* classes.  
 
 Here is an example code:

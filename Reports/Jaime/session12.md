@@ -2,7 +2,7 @@
 
 # Session 12
 
-This was the session in which I would finally set up the **CC and servo motors** so that I could test the code I had already written ([here](../../Code/Movement/)).  
+This was the session in which I would finally set up the **CC and servo motors** so that I could test the code I had already written ([here](../../Code/tests/Movement/)).  
 However, there weren't enough drivers to control each motor, so I had to wait for them to arrive.
 
 Instead, I decided to dedicate my time to fixing the loose pieces.  
@@ -50,7 +50,7 @@ Changes:
 
 I tested a servo motor in order to get an idea of the type of code I have to implement.  
 
-[Test code here](../../Code/Movement/Servo.ino)
+[Test code here](../../Code/tests/Movement/Servo.ino)
 
 I observed that, although it said 270º, the servo motor doesn't turn all the way to 270º, but approximately to 240º.  
 This will have to be taken into consideration when writing the code (maybe adding some kind of offset).  

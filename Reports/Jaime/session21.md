@@ -83,7 +83,7 @@ Plus, I grouped the ones who should have the same signal:
 
 ![img](../../Documentation/Images/group-wires.jpeg)
 
-3. I debugged the [`Movement`](../../Code/Movement/WheelController.h) code I made some months ago. This is a great c++ class that will allow us to control the robot very easily.
+3. I debugged the [`Movement`](../../Code/tests/Movement/WheelController.h) code I made some months ago. This is a great c++ class that will allow us to control the robot very easily.
 
 ![img](../../Documentation/Images/session21_7.gif)
 
