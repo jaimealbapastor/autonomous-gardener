@@ -1,14 +1,16 @@
 #include "BTController.h"
 
-void setup() {
+void setup()
+{
   Controller.begin();
   Serial.begin(9600);
-  Serial.println("ATcommand");  // ATcommand Start
+  Serial.println("ATcommand"); // ATcommand Start
 }
 
 char msg;
 
-void loop() {
+void loop()
+{
   Controller.checkCommand();
   // if (Serial1.available()) {
 

@@ -7,38 +7,38 @@
 
 class WheelController {
 private:
-  static const uint8_t nb_of_wheels = 6;
+  static const uint8_t NB_OF_WHEELS = 6;
 
-  const uint8_t right_pwm_pin = 5;
-  const uint8_t left_pwm_pin = 4;
-  const uint8_t right_dir_pin = 2;
-  const uint8_t left_dir_pin = 3;
+  const uint8_t RIGHT_PWM_PIN = 5;
+  const uint8_t LEFT_PWM_PIN = 4;
+  const uint8_t RIGHT_DIR_PIN = 2;
+  const uint8_t LEFT_DIR_PIN = 3;
 
   // direction pins for each motor
-  const uint8_t dir_pins[nb_of_wheels] = { left_dir_pin, right_dir_pin,
-                                           left_dir_pin, right_dir_pin,
-                                           left_dir_pin, right_dir_pin };
+  const uint8_t DIR_PINS[NB_OF_WHEELS] = { LEFT_DIR_PIN, RIGHT_DIR_PIN,
+                                           LEFT_DIR_PIN, RIGHT_DIR_PIN,
+                                           LEFT_DIR_PIN, RIGHT_DIR_PIN };
 
   // pwd pins for each motor
-  const uint8_t pwm_pins[nb_of_wheels] = { left_pwm_pin, right_pwm_pin,
-                                           left_pwm_pin, right_pwm_pin,
-                                           left_pwm_pin, right_pwm_pin };
+  const uint8_t PWM_PINS[NB_OF_WHEELS] = { LEFT_PWM_PIN, RIGHT_PWM_PIN,
+                                           LEFT_PWM_PIN, RIGHT_PWM_PIN,
+                                           LEFT_PWM_PIN, RIGHT_PWM_PIN };
 
   // pins of each servo motor, 0 meaning there is no servo motor
-  const uint8_t servo_pins[nb_of_wheels] = { 9, 11,
+  const uint8_t SERVO_PINS[NB_OF_WHEELS] = { 9, 11,
                                              0, 0,
                                              8, 10 };
 
-  const uint8_t max_speed = 255;
-  int16_t motor_speeds[nb_of_wheels];  // speed of each motor (-255 to 255 pwm)
+  const uint8_t MAX_SPEED = 255;
+  int16_t robot_speeds[NB_OF_WHEELS];  // speed of each motor (-255 to 255 pwm)
 
-  static const uint8_t nb_of_servo = 4;
+  static const uint8_t NB_OF_SERVO = 4;
 
-  Servo servos[nb_of_servo];           // Servo objects to control each servo motor
-  Servo *servos_in_pos[nb_of_wheels];  // Servo pointers in the same index as the DC motor
+  Servo servos[NB_OF_SERVO];           // Servo objects to control each servo motor
+  Servo *servos_in_pos[NB_OF_WHEELS];  // Servo pointers in the same index as the DC motor
 
-  const uint8_t min_speed_to_turn = 20;  // Minimum speed required in order to turn
-  const uint8_t rest_angle = 90;         // The angle where all wheels are pointing forward
+  const uint8_t MIN_SPEED_TO_TURN = 20;  // Minimum speed required in order to turn
+  const uint8_t REST_ANGLE = 90;         // The angle where all wheels are pointing forward
 
   bool direction(int16_t speed);
 
