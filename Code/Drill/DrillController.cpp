@@ -1,68 +1,48 @@
 #include "DrillController.h"
 
-DrillController::DrillController() {}
+DrillController::DrillController()
+{
+}
 
-DrillController::~DrillController() {}
+DrillController::~DrillController()
+{
+}
 
-/**
- * @brief Initialize les pinMode des moteurs
- *
- */
 void DrillController::begin()
 {
-    pinMode(this->stepper_dir, OUTPUT);
-    pinMode(this->stepper_step, OUTPUT);
+	pinMode(this->StepperPas, OUTPUT); // STEPPER
+	pinMode(this->StepperDir, OUTPUT);
 
-    pinMode(this->dc_dir, OUTPUT);
-    pinMode(this->dc_pwm, OUTPUT);
+	pinMode(this->MoteurDIR1, OUTPUT); // DC
+	pinMode(this->MoteurPW1, OUTPUT);
 }
 
-/**
- * @brief Translation du stepper pour descendre le drill
- *
- */
-void DrillController::translation(Pas, Dir) // FIXME il manque le type des arguments
+void DrillController::AvancerStepper(bool descendre = 1, uint32_t nb_tour = 10000)
 {
-    for (int nb_tour = 0; nb_tour < 600; nb_tour++) // TODO le type int functionne mais n'est pas le plus adapté (demande à Jaime)
-    {
-        digitalWrite(Pas, HIGH);
-        delayMicroseconds(500);
-        digitalWrite(Pas, LOW);
-        delayMicroseconds(500);
-    }
-    delay(1000);
+	digitalWrite(this->StepperDir, descendre);
+	for (uint32_t x = 0; x < nb_tour; x++)
+	{
+		digitalWrite(this->StepperPas, HIGH);
+		delayMicroseconds(50);
+		digitalWrite(this->StepperPas, LOW);
+		delayMicroseconds(50);
+	}
 }
 
-/**
- * @brief Rotation du drill pour creuser
- *
- */
-void DrillController::rotation(pwm, dir) // FIXME il manque le type des arguments
+void DrillController::ReculerStepper(uint32_t nb_tour = 10000)
 {
-    for (int motor_cc = 0; motor_cc > 255; motor_cc++) // BUG il y a une petite erreur, la boucle ne s'executera pas
-    {
-        digitalWrite(pwm, HIGH);
-        Serial.println("avant");
-        delay(300);
-    }
+	this->AvancerStepper(0, nb_tour);
 }
 
-// TODO décrire et expliquer ce que fait cette fonction
-void DrillController::systemdrill()
+void DrillController::AvancerDC(bool droite = 1)
 {
-    /// position 0 : drill rangé
-    /// position 1 : drill en bas
-    /// changement position 0 à 1 et drill tourne
-
-    /// premiere idée:
-    if (position == 0) // FIXME 'position' n'est pas défini
-    {
-        translation(Pas, Dir); // FIXME 'Pas' et 'Dir' ne sont pas définis
-        rotation(pwm, dir);    // FIXME 'pwm' et 'dir' ne sont pas définis
-    }
+	digitalWrite(this->MoteurDIR1, droite); /// tourner vers l'avant moteur
+	analogWrite(this->MoteurPW1, 255);
+	delay(3000);
+	analogWrite(this->MoteurPW1, 0);
 }
 
-// TODO décrire et expliquer ce que fait cette fonction
-void DrillController::stop()
+void DrillController::ReculerDC()
 {
+	this->AvancerDC(0);
 }

@@ -1,31 +1,19 @@
-#ifndef DRILL_CONTROLLER_H
-#define DRILL_CONTROLLER_H
-
-#include <Arduino.h>
-#include <stdint.h>
-
 class DrillController
 {
 private:
-	const uint8_t stepper_dir = 2;
-	const uint8_t stepper_pas = 3;
+	/* data */
+	const uint8_t StepperPas = 2; // STEPPER
+	const uint8_t StepperDir = 3;
 
-	const uint8_t dc_dir = 8;
-	const uint8_t dc_pwm = 9;
-
-	/// uint8_t _nb_of_motors = 0;
+	const uint8_t MoteurDIR1 = 9; // DC
+	const uint8_t MoteurPW1 = 10;
 
 public:
-	// Constructors
-	void DrillController();
-	void ~DrillController();
-
+	DrillController();
+	~DrillController();
 	void begin();
-
-	void translation();
-	void rotation();
-	void systemdrill();
-	void stop();
+	void AvancerStepper(bool descendre = 1, uint32_t nb_tour = 10000);
+	void ReculerStepper(uint32_t nb_tour = 10000);
+	void AvancerDC(bool droite = 1);
+	void ReculerDC();
 };
-
-#endif
