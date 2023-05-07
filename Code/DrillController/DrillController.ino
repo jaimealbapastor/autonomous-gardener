@@ -10,8 +10,9 @@ void setup()
 
 void loop()
 {
-  Drill.AvancerStepper();
-  Drill.AvancerDC();
-  Drill.ReculerStepper();
+  Drill.ActiverRotation();
+  Drill.Descendre();
+  Drill.DesactiverRotation();
+  Drill.Remonter();
   delay(2000);
 }

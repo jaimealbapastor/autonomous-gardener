@@ -18,10 +18,10 @@ public:
 	DrillController();
 	~DrillController();
 	void begin();
-	void AvancerStepper(bool descendre = 1, uint32_t nb_tour = 10000);
-	void ReculerStepper(uint32_t nb_tour = 10000);
-	void AvancerDC(bool droite = 1);
-	void ReculerDC();
+	void Descendre(bool descendre = 1, uint32_t nb_tour = 10000);
+	void Remonter(uint32_t nb_tour = 10000);
+	void ActiverRotation();
+	void DesactiverRotation();
 };
 
 #endif
