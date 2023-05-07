@@ -1,19 +1,13 @@
+#include "DrillController.h"
 
-
-void setup() {
-Serial.begin(115200);
-pinMode(Pas,OUTPUT);
-pinMode(Dir,OUTPUT);                ///setup moteur stepper du tuto Masson
-digitalWrite(Dir,HIGH);
-
-pinMode(dir, OUTPUT);
-pinMode(pwm, OUTPUT);               ///setup du moteur cc du tuto Masson
-digitalWrite(pwm, LOW);
-digitalWrite(dir, LOW);
-Serial.begin(9600);
+void setup()
+{
+    Serial.begin(9600);
+    Drill.begin(); // FIXME 'Drill' n'est pas défini, il faut le créer avant setup
 }
 
-void loop() {
-    translation(Pas, Dir);
-    rotation(pwm, dir);
+void loop()
+{
+    Drill.translation(Pas, Dir); // FIXME 'Pas' et 'Dir' ne sont pas définis
+    Drill.rotation(pwm, dir);    // FIXME 'pwm' et 'dir' ne sont pas définis
 }
