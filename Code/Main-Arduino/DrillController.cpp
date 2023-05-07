@@ -1,4 +1,7 @@
 #include "DrillController.h"
+
+DrillController Drill;
+
 /**
  * @brief Construct a new Drill Controller:: Drill Controller object
  *
@@ -45,16 +48,6 @@ void DrillController::Descendre(uint32_t nb_tour = 10000, bool descendre = 1, ui
 }
 
 /**
- * @brief Remonte le forêt pour être rangé dans le chassis
- *
- * @param nb_tour pour revenir à l'endroit initial
- */
-void DrillController::Remonter(uint32_t nb_tour = 10000, uint16_t delay = 200;)
-{
-	this->Descendre(nb_tour, 0);
-}
-
-/**
  * @brief descendre le forêt avant qu'il soit dans le sol
  *
  * @param nb_tour
@@ -62,6 +55,16 @@ void DrillController::Remonter(uint32_t nb_tour = 10000, uint16_t delay = 200;)
 void DrillController::DescendreRapide(uint32_t nb_tour = 10000)
 {
 	this->Descendre(nb_tour, 1, 50);
+}
+
+/**
+ * @brief Remonte le forêt pour être rangé dans le chassis
+ *
+ * @param nb_tour pour revenir à l'endroit initial
+ */
+void DrillController::Remonter(uint32_t nb_tour = 10000, uint16_t delay = 200)
+{
+	this->Descendre(nb_tour, 0, delay);
 }
 
 /**
@@ -80,7 +83,7 @@ void DrillController::RemonterRapide(uint32_t nb_tour = 10000)
  */
 void DrillController::ActiverRotation()
 {
-	analogWrite(this->MoteurPW1, 255);
+	digitalWrite(this->MoteurPW1, 1);
 }
 
 /**
