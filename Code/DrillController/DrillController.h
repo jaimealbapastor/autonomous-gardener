@@ -1,3 +1,9 @@
+#ifndef DRILL_CONTROLLER_H
+#define DRILL_CONTROLLER_H
+
+#include <Arduino.h>
+#include <stdint.h>
+
 class DrillController
 {
 private:
@@ -17,3 +23,5 @@ public:
 	void AvancerDC(bool droite = 1);
 	void ReculerDC();
 };
+
+#endif
