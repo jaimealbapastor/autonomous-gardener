@@ -9,7 +9,7 @@ However, we were still unsure of some of them, so we had to verify their suitabi
 
 |Component|Problem to solve|
 |:---:|---|
-|[Auger](#1-auger)|Diameter to long|
+|[Auger](#1-auger)|Diameter too long|
 |[Drill motor](#2-drill-motor)|Unreliable website, unclear specifications and not enough torque|
 |[Tyres connector](#3-tyres-connector)|Not compatible with our wheels|
 |[DC motors](#4-dc-motors)|Unreliable website, unclear specifications and not enough torque|
